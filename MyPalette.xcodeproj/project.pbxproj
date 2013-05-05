@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* MyPaletteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MyPaletteAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* MyPaletteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* MyPaletteViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* MyPaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* MyPaletteViewController.m */; };
+		52C4A422162400DD00620781 /* character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C4A40A162400DC00620781 /* character.cpp */; };
+		52C4A423162400DD00620781 /* feature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C4A40D162400DC00620781 /* feature.cpp */; };
+		52C4A424162400DD00620781 /* libzinnia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C4A410162400DC00620781 /* libzinnia.cpp */; };
+		52C4A425162400DD00620781 /* param.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C4A412162400DD00620781 /* param.cpp */; };
+		52C4A426162400DD00620781 /* recognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C4A414162400DD00620781 /* recognizer.cpp */; };
+		52C4A427162400DD00620781 /* sexp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C4A416162400DD00620781 /* sexp.cpp */; };
+		52C4A428162400DD00620781 /* ShowZinnia.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C4A419162400DD00620781 /* ShowZinnia.m */; };
+		52C4A429162400DD00620781 /* svm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C4A41B162400DD00620781 /* svm.cpp */; };
+		52C4A42A162400DD00620781 /* trainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C4A41D162400DD00620781 /* trainer.cpp */; };
+		52C4A42B162400DD00620781 /* zinnia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C4A41E162400DD00620781 /* zinnia.cpp */; };
+		52C4A42C162400DD00620781 /* zinnia_convert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C4A420162400DD00620781 /* zinnia_convert.cpp */; };
+		52C4A42D162400DD00620781 /* zinnia_learn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C4A421162400DD00620781 /* zinnia_learn.cpp */; };
+		52ED332F1637BE4400B5C20E /* RecognizerHZ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52ED332E1637BE4400B5C20E /* RecognizerHZ.cpp */; };
+		8B950B8313B7F95C0004AC54 /* 03(8148).png in Resources */ = {isa = PBXBuildFile; fileRef = 8B950B8213B7F95C0004AC54 /* 03(8148).png */; };
+		8B950B8513B7F9F80004AC54 /* Apple%20Woks%206.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B950B8413B7F9F80004AC54 /* Apple%20Woks%206.png */; };
+		8B950B8713B7FA2D0004AC54 /* APPS(6627).png in Resources */ = {isa = PBXBuildFile; fileRef = 8B950B8613B7FA2D0004AC54 /* APPS(6627).png */; };
+		8B9D0C1813B6716600595CC7 /* NoMobile.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B9D0C1713B6716600595CC7 /* NoMobile.png */; };
+		8BAE81BA13B392580021522C /* Palette.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE81B913B392580021522C /* Palette.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MyPaletteAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPaletteAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MyPaletteAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPaletteAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* MyPalette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPalette.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* MyPaletteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyPaletteViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* MyPaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPaletteViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* MyPaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPaletteViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* MyPalette_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPalette_Prefix.pch; sourceTree = "<group>"; };
+		52C4A40A162400DC00620781 /* character.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = character.cpp; sourceTree = "<group>"; };
+		52C4A40B162400DC00620781 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		52C4A40C162400DC00620781 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		52C4A40D162400DC00620781 /* feature.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = feature.cpp; sourceTree = "<group>"; };
+		52C4A40E162400DC00620781 /* feature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feature.h; sourceTree = "<group>"; };
+		52C4A40F162400DC00620781 /* freelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = freelist.h; sourceTree = "<group>"; };
+		52C4A410162400DC00620781 /* libzinnia.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = libzinnia.cpp; sourceTree = "<group>"; };
+		52C4A411162400DD00620781 /* mmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mmap.h; sourceTree = "<group>"; };
+		52C4A412162400DD00620781 /* param.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = param.cpp; sourceTree = "<group>"; };
+		52C4A413162400DD00620781 /* param.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = param.h; sourceTree = "<group>"; };
+		52C4A414162400DD00620781 /* recognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = recognizer.cpp; sourceTree = "<group>"; };
+		52C4A415162400DD00620781 /* scoped_ptr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scoped_ptr.h; sourceTree = "<group>"; };
+		52C4A416162400DD00620781 /* sexp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sexp.cpp; sourceTree = "<group>"; };
+		52C4A417162400DD00620781 /* sexp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sexp.h; sourceTree = "<group>"; };
+		52C4A418162400DD00620781 /* ShowZinnia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowZinnia.h; sourceTree = "<group>"; };
+		52C4A419162400DD00620781 /* ShowZinnia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowZinnia.m; sourceTree = "<group>"; };
+		52C4A41A162400DD00620781 /* stream_wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream_wrapper.h; sourceTree = "<group>"; };
+		52C4A41B162400DD00620781 /* svm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = svm.cpp; sourceTree = "<group>"; };
+		52C4A41C162400DD00620781 /* svm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svm.h; sourceTree = "<group>"; };
+		52C4A41D162400DD00620781 /* trainer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trainer.cpp; sourceTree = "<group>"; };
+		52C4A41E162400DD00620781 /* zinnia.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zinnia.cpp; sourceTree = "<group>"; };
+		52C4A41F162400DD00620781 /* zinnia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zinnia.h; sourceTree = "<group>"; };
+		52C4A420162400DD00620781 /* zinnia_convert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zinnia_convert.cpp; sourceTree = "<group>"; };
+		52C4A421162400DD00620781 /* zinnia_learn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zinnia_learn.cpp; sourceTree = "<group>"; };
+		52ED332C1637B81D00B5C20E /* RecognizerHZ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecognizerHZ.h; sourceTree = "<group>"; };
+		52ED332E1637BE4400B5C20E /* RecognizerHZ.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecognizerHZ.cpp; sourceTree = "<group>"; };
+		8B950B8213B7F95C0004AC54 /* 03(8148).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03(8148).png"; sourceTree = "<group>"; };
+		8B950B8413B7F9F80004AC54 /* Apple%20Woks%206.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple%20Woks%206.png"; sourceTree = "<group>"; };
+		8B950B8613B7FA2D0004AC54 /* APPS(6627).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APPS(6627).png"; sourceTree = "<group>"; };
+		8B9D0C1713B6716600595CC7 /* NoMobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoMobile.png; sourceTree = "<group>"; };
+		8BAE81B813B392580021522C /* Palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Palette.h; sourceTree = "<group>"; };
+		8BAE81B913B392580021522C /* Palette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Palette.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* MyPalette-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MyPalette-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* MyPaletteAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MyPaletteAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* MyPaletteViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* MyPaletteViewController.m */,
+				8BAE81B813B392580021522C /* Palette.h */,
+				8BAE81B913B392580021522C /* Palette.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* MyPalette.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				52C4A409162400DC00620781 /* zinnia.6 */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* MyPalette_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B950B8613B7FA2D0004AC54 /* APPS(6627).png */,
+				8B950B8413B7F9F80004AC54 /* Apple%20Woks%206.png */,
+				8B950B8213B7F95C0004AC54 /* 03(8148).png */,
+				8B9D0C1713B6716600595CC7 /* NoMobile.png */,
+				2899E5210DE3E06400AC0155 /* MyPaletteViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* MyPalette-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52C4A409162400DC00620781 /* zinnia.6 */ = {
+			isa = PBXGroup;
+			children = (
+				52C4A40A162400DC00620781 /* character.cpp */,
+				52C4A40B162400DC00620781 /* common.h */,
+				52C4A40C162400DC00620781 /* config.h */,
+				52C4A40D162400DC00620781 /* feature.cpp */,
+				52C4A40E162400DC00620781 /* feature.h */,
+				52C4A40F162400DC00620781 /* freelist.h */,
+				52C4A410162400DC00620781 /* libzinnia.cpp */,
+				52C4A411162400DD00620781 /* mmap.h */,
+				52C4A412162400DD00620781 /* param.cpp */,
+				52C4A413162400DD00620781 /* param.h */,
+				52C4A414162400DD00620781 /* recognizer.cpp */,
+				52C4A415162400DD00620781 /* scoped_ptr.h */,
+				52C4A416162400DD00620781 /* sexp.cpp */,
+				52C4A417162400DD00620781 /* sexp.h */,
+				52C4A418162400DD00620781 /* ShowZinnia.h */,
+				52C4A419162400DD00620781 /* ShowZinnia.m */,
+				52C4A41A162400DD00620781 /* stream_wrapper.h */,
+				52C4A41B162400DD00620781 /* svm.cpp */,
+				52C4A41C162400DD00620781 /* svm.h */,
+				52C4A41D162400DD00620781 /* trainer.cpp */,
+				52C4A41E162400DD00620781 /* zinnia.cpp */,
+				52C4A41F162400DD00620781 /* zinnia.h */,
+				52C4A420162400DD00620781 /* zinnia_convert.cpp */,
+				52C4A421162400DD00620781 /* zinnia_learn.cpp */,
+				52ED332C1637B81D00B5C20E /* RecognizerHZ.h */,
+				52ED332E1637BE4400B5C20E /* RecognizerHZ.cpp */,
+			);
+			path = zinnia.6;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* MyPalette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MyPalette" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPalette;
+			productName = MyPalette;
+			productReference = 1D6058910D05DD3D006BFB54 /* MyPalette.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MyPalette" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* MyPalette */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* MyPaletteViewController.xib in Resources */,
+				8B9D0C1813B6716600595CC7 /* NoMobile.png in Resources */,
+				8B950B8313B7F95C0004AC54 /* 03(8148).png in Resources */,
+				8B950B8513B7F9F80004AC54 /* Apple%20Woks%206.png in Resources */,
+				8B950B8713B7FA2D0004AC54 /* APPS(6627).png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MyPaletteAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* MyPaletteViewController.m in Sources */,
+				8BAE81BA13B392580021522C /* Palette.m in Sources */,
+				52C4A422162400DD00620781 /* character.cpp in Sources */,
+				52C4A423162400DD00620781 /* feature.cpp in Sources */,
+				52C4A424162400DD00620781 /* libzinnia.cpp in Sources */,
+				52C4A425162400DD00620781 /* param.cpp in Sources */,
+				52C4A426162400DD00620781 /* recognizer.cpp in Sources */,
+				52C4A427162400DD00620781 /* sexp.cpp in Sources */,
+				52C4A428162400DD00620781 /* ShowZinnia.m in Sources */,
+				52C4A429162400DD00620781 /* svm.cpp in Sources */,
+				52C4A42A162400DD00620781 /* trainer.cpp in Sources */,
+				52C4A42B162400DD00620781 /* zinnia.cpp in Sources */,
+				52C4A42C162400DD00620781 /* zinnia_convert.cpp in Sources */,
+				52C4A42D162400DD00620781 /* zinnia_learn.cpp in Sources */,
+				52ED332F1637BE4400B5C20E /* RecognizerHZ.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MyPalette_Prefix.pch;
+				INFOPLIST_FILE = "MyPalette-Info.plist";
+				PRODUCT_NAME = MyPalette;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MyPalette_Prefix.pch;
+				INFOPLIST_FILE = "MyPalette-Info.plist";
+				PRODUCT_NAME = MyPalette;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Geng Sai Meng (2DMYAAV696)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4DEAF154-5437-40E6-BE9B-3E0DD52BD0A2";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Geng Sai Meng (2DMYAAV696)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4DEAF154-5437-40E6-BE9B-3E0DD52BD0A2";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MyPalette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MyPalette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
